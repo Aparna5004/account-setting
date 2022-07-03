@@ -1,0 +1,303 @@
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eef8ff;
+}
+footer{
+width: 100%;
+position: absolute;
+bottom: 0;
+background: linear-gradient(to right,#00093c, #2d0b00);
+color:#fff;
+padding: 100px 0  30px;
+border-top-left-radius: 125px;
+font-size: 13px;
+line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+iframe{
+    width: 80px;
+    margin-bottom: 1px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width:fit-content;
+    border-bottom: 1px solid#ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}*/
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+
+.mat-toolbar {
+    background-color: #ff0066;
+    height: 30px;
+
+}
+
+
+
+.heading h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.mat-toolbar-row h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.mat-toolbar .mat-button {
+    margin-top: 2px;
+}
+
+.mat-toolbar .mat-icon {
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.mat-sidenav-container {
+
+
+    height: 85%;
+
+
+}
+
+
+
+
+#about {
+    width: calc(100% - 300px);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 200px;
+    padding-top: 200px;
+
+}
+
+
+
+.search-box {
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ff0066;
+}
+
+
+
+form {
+    margin: 0;
+
+}
+
+.search-box input {
+    border: none;
+    margin: 10px 5px 10px;
+    font-size: 20px;
+    outline: none;
+    color: black;
+}
+
+.search-box i {
+    font-size: 20px;
+    margin: 0px 10px;
+    color: #ff0066;
+}
+
+i:hover {
+    color: #ff0066;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.Departments h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.Departments p {
+
+    font-size: 18px;
+
+}
+
+
+
+.mat-sidenav {
+    width: 420px;
+    background-color: white;
+}
+
+
+
+
+
+
+.mat-sidenav-container .menu {
+
+    align-items: center;
+    display: flex;
+}
+
+.mat-sidenav-container .menu i {
+
+
+    border-radius: 50%;
+    padding-left: 5%;
+    margin-right: 10px;
+    padding-top: 2%;
+
+}
+
+.mat-sidenav-container .menu .cross {
+    padding-left: 55%;
+}
+
+.mat-sidenav-container .menu .cross .fa {
+    font-size: 20px;
+}
+
+.menu h3 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.mat-sidenav-container .profile {
+
+    align-items: center;
+
+
+}
+
+.mat-sidenav-container .profile h1 {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.profile-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 2%;
+    margin-right: 10px;
+    padding-top: 2%;
+}
+
+.wrapper {
+    width: 250px;
+    margin: 10px;
+
+}
+
+.wrapper h1 {
+    font-size: 15px;
+
+}
+
+.select-btn {
+    height: 35px;
+    background: #fff;
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+.select-btn i {
+    font-size: 21px;
+}
+
+.subscription {
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.subscription h1 {
+    font-size: 15px;
+}
+
+.subscription p {
+    font-size: 15px;
+
+}
+
+.profile-img {
+    display: flex;
+}
+
+
+
+
+
+
+.mat-sidenav-container ul li a {
+    display: block;
+    padding: 3px 30px;
+    color: black;
+}

@@ -1,0 +1,112 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <button mat-button (click)="opened=!opened">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+  <div class="heading">
+    <h1>UNEEKLI</h1>
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav [(opened)]="opened" mode="over">
+    <div class="menu">
+      <i class="fa fa-arrow-left"></i>
+      <h3>Main Menu</h3>
+      <div class="cross">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+    </div>
+    <hr style="margin-top: 5px;color:black;">
+    <div class="profile">
+      <h1> Account Settings</h1>
+    </div>
+    <div class=profile-img>
+      <img src="assets/default.png">
+      <div class="profile-id">
+        <p style="font-size: 18px ;">Surya</p>
+        <p>surya@gmail.com</p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <h1>Languages</h1>
+      <div class="select-btn">
+
+        <span>English</span>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+    </div>
+    <div class="subscription">
+      <p style="font-size: 15px ; font-weight: 400;">Current Subscriptions </p>
+      <p>Uneekli pro Crome Extension</p>
+    </div>
+
+
+    <hr style="margin-top: 20px;color:black;">
+    <div class="edit" style=" display: flex;  ">
+
+      <h3 style="padding-left: 20px ; font-size:20px">Edit</h3>
+      <div class="arrow" style="padding-left:80% ;">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="edit">
+      <div class="editing" style="display: flex;">
+        <i class="fa fa-server" aria-hidden="true" style="padding-left: 20px ; font-size:20px;"></i>
+        <p style="font-size: 20px ; padding-left:10px"> Suggested Server In China</p>
+      </div>
+      <div class="para" style="padding-left: 20px; font-size:14px">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo aut iste obcaecati autem in
+          ducimus repellat ab nulla reprehenderit, ratione nobis magni laboriosam fuga rem numquam architecto est iusto.
+        </p>
+      </div>
+      <br>
+      <div class="editing" style="display: flex;">
+        <i class="fa fa-plug" aria-hidden="true" style="padding-left: 20px ; font-size:20px;"></i>
+        <p style="font-size: 20px ; padding-left:10px"> Slow Connection Mode</p>
+      </div>
+
+      <div class="para" style="padding-left: 20px; font-size:14px">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo aut iste obcaecati autem in
+          ducimus repellat ab nulla reprehenderit, ratione nobis magni laboriosam fuga rem numquam architecto est iusto.
+        </p>
+      </div>
+
+    </div>
+
+
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <section id="about">
+      <div class="container">
+
+
+        <div class="search-box">
+          <form>
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <input type="text" placeholder="Search" />
+            <button type="submit"><i class="fa fa-microphone"></i></button>
+          </form>
+        </div>
+
+        <div class="Departments">
+          <h1> Try Performing a Search</h1>
+          <br>
+          <p>1.Click on the search bar above</p>
+          <br>
+          <p>2.Enter a product idea</p>
+          <br>
+
+          <p>3. Click on the icon to view the listing information</p>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
